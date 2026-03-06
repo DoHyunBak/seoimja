@@ -9,8 +9,7 @@ export const portfolioData = {
     phone: "tel:01099569414",
     github: "https://github.com/DoHyunBak",
     linkedin: "https://linkedin.com/in/dohyunbak",
-    // public/resume.pdf 파일을 내려받는 링크
-    resumeLink: "/resume.pdf",
+    resumeLink: "/resume_park.pdf",
   },
   kpis: [
     { id: 1, label: "핵심 도메인", value: "ERP / SAP", icon: "building2" },
@@ -33,7 +32,6 @@ export const portfolioData = {
     {
       id: "e1",
       period: "2021.03 - 2027.03",
-      logo: "C:\\dev\\parkdohyun\\src\\shared\\asset\\HYU_symbol_basic_png.png",
       title: "한양대학교 ERICA",
       role: "ICT융합학부",
       description:
