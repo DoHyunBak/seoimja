@@ -13,10 +13,21 @@ export default function ContactSection({ profile }) {
 
         <div className="flex flex-col justify-center gap-4 sm:flex-row">
           <a
+<<<<<<< HEAD
             href={`mailto:${profile.email}`}
             className="flex w-full items-center justify-center gap-2 rounded-xl bg-white px-8 py-4 font-bold text-black transition-colors hover:bg-zinc-200 sm:w-auto"
           >
             <Mail className="h-5 w-5" /> Email
+=======
+            href={profile.email}
+            className="group relative flex w-full items-center justify-center gap-2 rounded-xl bg-white px-8 py-4 font-bold text-black transition-colors hover:bg-zinc-200 sm:w-auto"
+          >
+            <Mail className="h-5 w-5" /> Email
+            <div className="pointer-events-none absolute -bottom-16 left-1/2 z-10 w-max -translate-x-1/2 rounded-md bg-zinc-900 px-3 py-2 text-xs font-mono text-zinc-200 opacity-0 shadow-lg transition-opacity group-hover:opacity-100">
+              <div>{profile.email.replace("mailto:", "")}</div>
+              <div>{profile.phone.replace("tel:", "")}</div>
+            </div>
+>>>>>>> d422a4b (chore: 저장소 초기화 및 환경 재설정)
           </a>
           <a
             href={profile.github}
