@@ -5,9 +5,9 @@ export const portfolioData = {
     headline: "Future-Oriented\nBackend Developer.",
     subHeadline:
       "Focusing on how technology supports real business operations. I am a backend engineer dedicated to enterprise system management, encompassing data flows and business processes.",
-    email: "your-email@example.com",
-    github: "https://github.com/your-id",
-    linkedin: "https://linkedin.com/in/your-id",
+    email: "badberg2002@gmail.com",
+    github: "https://github.com/DoHyunBak",
+    linkedin: "https://linkedin.com/in/dohyunbak",
     resumeLink: "#",
   },
   kpis: [
@@ -31,6 +31,7 @@ export const portfolioData = {
     {
       id: "e1",
       period: "2021.03 - 2027.03",
+      logo: "C:\\dev\\parkdohyun\\src\\shared\\asset\\HYU_symbol_basic_png.png",
       title: "한양대학교 ERICA",
       role: "ICT융합학부",
       description:
@@ -147,6 +148,12 @@ export const portfolioData = {
         "Understanding of large-scale data collection, storage, processing pipelines, and analysis modeling.",
     },
     {
+      status: "준비중",
+      name: "전산회계 1급",
+      detail:
+        "Securing deep domain knowledge of corporate accounting systems and business rules.",
+    },
+    {
       status: "예정",
       name: "SAP ABAP / SAP FI",
       detail:
@@ -157,12 +164,6 @@ export const portfolioData = {
       name: "전산세무 2급",
       detail:
         "Acquiring practical tax accounting and corporate financial reporting capabilities.",
-    },
-    {
-      status: "예정",
-      name: "전산회계 1급",
-      detail:
-        "Securing deep domain knowledge of corporate accounting systems and business rules.",
     },
   ],
 };
