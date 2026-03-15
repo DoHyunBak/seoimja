@@ -41,9 +41,9 @@ export const portfolioData = {
   projects: [
     {
       id: "p1",
-      title: " 관리시스템",
+      title: " 대학물품관리관리시스템",
       status: "active",
-      tags: ["Java", "Spring Boot", "AWS", "MySQL", "Docker", "Flyway"],
+      tags: ["Java", "Spring Boot", "AWS", "MySQL","RDS","Docker", "Flyway","Hexagonal Architecture","Open API"],
       problem:
         "Managing large-scale organizational assets across departments lacks centralized ownership and lifecycle tracking, similar to enterprise challenges.",
       solution: 
@@ -53,7 +53,7 @@ export const portfolioData = {
       role: "Backend Development & Database Administration (DBA)",
       links: {
         github: "https://github.com/U-sto/U-sto_BE",
-        docs: "https://notion.so/your-docs",
+        docs: "http://13.124.10.41:8080/swagger-ui/index.html#/",
       },
       architecture: [
         "Client Application",
@@ -158,15 +158,9 @@ export const portfolioData = {
     },
     {
       status: "예정",
-      name: "SAP ABAP / SAP FI",
+      name: "SAP Certified Associate \n- Back-End Developer \n- ABAP Cloud",
       detail:
         "Acquiring enterprise ERP financial module and business process development capabilities.",
-    },
-    {
-      status: "예정",
-      name: "전산세무 2급",
-      detail:
-        "Acquiring practical tax accounting and corporate financial reporting capabilities.",
     },
   ],
 };
