@@ -1,7 +1,7 @@
 # DOHYUN PARK
 ## Enterprise Backend Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-parkdohyun.vercel.app-black?style=for-the-badge)](https://parkdohyun.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-parkdohyun.com-black?style=for-the-badge)](https://parkdohyun.com)
 [![GitHub](https://img.shields.io/badge/GitHub-DoHyunBak-black?style=for-the-badge)](https://github.com/DoHyunBak)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dohyunbak-black?style=for-the-badge)](https://linkedin.com/in/dohyunbak)
 [![Blog](https://img.shields.io/badge/Blog-Tistory-black?style=for-the-badge)](https://parkdohyun.tistory.com/)
@@ -61,4 +61,4 @@ flowchart LR
 | Target Role | Enterprise Backend Engineer |
 | Core Domain | ERP / SAP / Enterprise Data Flow |
 | Email | badberg2002@gmail.com |
-| Portfolio | [parkdohyun.vercel.app](https://parkdohyun.vercel.app) |
+| Portfolio | [parkdohyun.com](https://parkdohyun.com) |
