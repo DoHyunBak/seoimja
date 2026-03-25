@@ -32,8 +32,8 @@ export const portfolioData = {
     {
       id: "e1",
       period: "2021.03 - 2027.03",
-      title: "한양대학교 ERICA",
-      role: "ICT융합학부",
+      title: "한양대학교",
+      role: "ICT융합학부 공학사",
       description:
         "Focusing on software engineering, data management, and enterprise system architectures. Building a foundation in computer science and real-world problem solving through technology.",
     },
