@@ -121,6 +121,12 @@ export const portfolioData = {
       description:
         "Deep understanding of business process systems and financial/accounting domain structure management.",
     },
+    {
+      category: "Language",
+      tech: "Korean (Advanced), English (Intermediate), Chinese (Beginner), Japanese (Beginner)",
+      description:
+        "Operational communication levels for collaboration and documentation in global contexts.",
+    },
   ],
   certifications: [
     {
