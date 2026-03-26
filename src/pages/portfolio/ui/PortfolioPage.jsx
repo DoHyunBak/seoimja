@@ -9,6 +9,7 @@ import PhilosophySection from "@/widgets/portfolio-sections/ui/PhilosophySection
 import ProjectsSection from "@/widgets/portfolio-sections/ui/ProjectsSection";
 import QuoteSection from "@/widgets/portfolio-sections/ui/QuoteSection";
 import SkillsSection from "@/widgets/portfolio-sections/ui/SkillsSection";
+import LanguageSection from "@/widgets/portfolio-sections/ui/LanguageSection";
 import useScrolled from "@/shared/hooks/useScrolled";
 import RevealOnScroll from "@/shared/ui/RevealOnScroll";
 import SpotlightCursor from "@/shared/ui/SpotlightCursor";
@@ -42,12 +43,15 @@ export default function PortfolioPage() {
           <SkillsSection skills={portfolioData.skills} />
         </RevealOnScroll>
         <RevealOnScroll delay={120}>
-          <CertificationsSection certifications={portfolioData.certifications} />
+          <LanguageSection languages={portfolioData.languages} />
         </RevealOnScroll>
         <RevealOnScroll delay={140}>
-          <ContactSection profile={portfolioData.profile} />
+          <CertificationsSection certifications={portfolioData.certifications} />
         </RevealOnScroll>
         <RevealOnScroll delay={160}>
+          <ContactSection profile={portfolioData.profile} />
+        </RevealOnScroll>
+        <RevealOnScroll delay={180}>
           <QuoteSection />
         </RevealOnScroll>
       </main>

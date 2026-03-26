@@ -1,11 +1,11 @@
 export const portfolioData = {
   profile: {
     name: "박도현",
-    role: "Enterprise Backend Engineer",
-    headline: "Futuristic\nBackend Developer.",
+    role: "Enterprise Backend DEngineer",
+    headline: "Futuristic\nBackDend eveloper.",
     subHeadline:
       "Focusing on how technology supports real business operations. I am a backend engineer dedicated to enterprise system management, encompassing data flows and business processes.",
-    email: "mailto:badberg2002@gmail.com",
+    email: "mailto:badberg2002@gmail.com",d
     tistory: "https://parkdohyun.tistory.com/",
     github: "https://github.com/DoHyunBak",
     linkedin: "https://linkedin.com/in/dohyunbak",
@@ -121,12 +121,12 @@ export const portfolioData = {
       description:
         "Deep understanding of business process systems and financial/accounting domain structure management.",
     },
-    {
-      category: "Language",
-      tech: "Korean (Advanced), English (Intermediate), Chinese (Beginner), Japanese (Beginner)",
-      description:
-        "Operational communication levels for collaboration and documentation in global contexts.",
-    },
+  ],
+  languages: [
+    { language: "한국어", level: "잘함" },
+    { language: "영어", level: "보통" },
+    { language: "중국어", level: "시작" },
+    { language: "일본어", level: "시작" },
   ],
   certifications: [
     {
