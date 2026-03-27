@@ -21,7 +21,7 @@ function LevelBadge({ level }) {
 export default function LanguageSection({ languages }) {
   return (
     <section id="language" className="space-y-10 border-t border-zinc-900 pt-8">
-      <SectionHeader title="Language" description="Communication readiness for global collaboration." />
+      <SectionHeader title="언어" description="Communication readiness for global collaboration." />
 
       <div className="border-t border-zinc-800">
         {languages.map((item) => (
