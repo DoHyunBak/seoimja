@@ -165,7 +165,7 @@ export const portfolioData = {
     },
     {
       status: "준비중",
-      name: "정보처리기사(Engineer Information Processing)",
+      name: "정보처리기사(Information Processing Engineer)",
       detail:
         "Systematization of knowledge across software engineering and enterprise system architecture.",
     },
