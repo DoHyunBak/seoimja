@@ -4,7 +4,7 @@ export const portfolioData = {
     role: "Enterprise Backend Developer",
     headline: "Futuristic\nBackend Developer.",
     subHeadline:
-      "Focusing on how technology supports real business operations. I am a backend engineer dedicated to enterprise system management, encompassing data flows and business processes.",
+      "Focusing on how technology supports real business operations. \nI am a backend engineer dedicated to enterprise system management, \nencompassing data flows and business processes.",
     email: "mailto:badberg2002@gmail.com",
     tistory: "https://parkdohyun.tistory.com/",
     github: "https://github.com/DoHyunBak",
@@ -64,19 +64,19 @@ export const portfolioData = {
     },
     {
       id: "p2",
-      title: "스마트 전자결재 시스템 (예정)",
-      status: "planned",
-      tags: ["Java", "Spring Boot", "JPA", "ERP System"],
+      title: "금연쉼터",
+      status: "active",
+      tags: ["Flutter", "Community App", "Mobile"],
       problem:
-        "Scalability limits due to hardcoded business processes and complex approval lines within the organization.",
+        "People trying to quit smoking often struggle to maintain motivation when they attempt alone without consistent peer support.",
       solution:
-        "Designed a dynamic approval routing and workflow engine backend API using Spring Boot.",
+        "Built a mobile community app where users share progress, encourage each other, and communicate through quit-smoking focused content.",
       result:
-        "Established an architecture that enables business process automation and flexible approval line management.",
-      role: "Backend Architecture & API Design",
+        "Created a support-centered communication space that helps users sustain quit-smoking goals through continuous social interaction.",
+      role: "Frontend Development(Flutter) , Backend Development(Spring) & Database Administration (DBA) & Cloud Engineering(AWS)",
       links: {
-        github: "#",
-        docs: "#",
+        github: "https://github.com/DoHyunBak/my_app",
+        docs: "https://smockout.vercel.app/",
       },
     },
     {
