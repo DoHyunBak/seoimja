@@ -66,7 +66,7 @@ export const portfolioData = {
       id: "p2",
       title: "금연쉼터",
       status: "active",
-      tags: ["Flutter", "Community App", "Mobile"],
+      tags: ["Flutter", "Community App", "Mobile", "Spring Boot", "MySQL", "AWS", "Docker", "Flyway"],
       problem:
         "People trying to quit smoking often struggle to maintain motivation when they attempt alone without consistent peer support.",
       solution:
