@@ -104,10 +104,9 @@ export default function DailyRoutineSection() {
           {/* 차트 */}
           <div className="flex w-full justify-center xl:flex-1">
             <svg
-              viewBox="0 0 600 600"
+              viewBox="-40 -40 680 680"
               className="w-full max-w-[520px] xl:max-w-full"
               aria-label="임자의 하루 루틴 시계"
-              style={{ overflow: "visible" }}
             >
               <defs>
                 <radialGradient id="rg-center" cx="50%" cy="50%" r="50%">
