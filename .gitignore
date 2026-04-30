@@ -5,3 +5,8 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Legacy Park Dohyun portfolio assets kept local only.
+public/myLogo.png
+public/resume_park.pdf
+src/shared/asset/HYU_symbol_basic_png.png

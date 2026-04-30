@@ -12,12 +12,6 @@ export const catPortfolioData = {
         label: "yewon.cc",
         href: "https://yewon.cc",
       },
-      {
-        id: "daddy-long-legs",
-        role: "Daddy-Long-Legs",
-        label: "parkdohyun.com",
-        href: "https://www.parkdohyun.com/",
-      },
     ],
   },
   profile: {

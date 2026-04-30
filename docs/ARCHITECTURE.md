@@ -13,21 +13,15 @@
 src
 ├─ app
 │  ├─ App.jsx
-│  ├─ providers
-│  ├─ routes
 │  └─ styles
 ├─ pages
-│  └─ portfolio
+│  └─ cat-portfolio
 │     └─ ui
 ├─ widgets
-│  ├─ navigation
-│  │  └─ ui
-│  ├─ portfolio-sections
-│  │  └─ ui
-│  └─ footer
+│  └─ cat-portfolio
 │     └─ ui
 ├─ entities
-│  └─ portfolio
+│  └─ cat
 │     └─ model
 └─ shared
    ├─ api
@@ -48,7 +42,7 @@ src
 - Use alias import: `@/...`.
 
 ## Next Refactor Rules For Incoming Code
-- Split giant component by section into `widgets/portfolio-sections/ui/*Section.jsx`.
-- Move constants, arrays, text blocks to `entities/portfolio/model`.
+- Split cat portfolio sections into `widgets/cat-portfolio/ui/*Section.jsx`.
+- Move cat profile, gallery, routine, and timeline data to `entities/cat/model`.
 - Move repeated UI blocks into `shared/ui`.
 - Keep side effects in hooks (`shared/hooks`).
