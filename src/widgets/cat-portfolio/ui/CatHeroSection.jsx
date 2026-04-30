@@ -47,7 +47,7 @@ export default function CatHeroSection({ profile }) {
         initial={reduceMotion ? false : { opacity: 0, scale: 0.96, y: 18 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.65, ease: "easeOut", delay: reduceMotion ? 0 : 0.08 }}
-        className="relative"
+        className="relative h-full"
       >
         <div className="absolute -inset-4 rounded-[2.2rem] bg-[#bda895]/24 blur-3xl" aria-hidden="true" />
         <div className="cat-photo-card relative h-full overflow-hidden rounded-[28px] p-3">
