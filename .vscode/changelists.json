@@ -3,16 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "src/widgets/cat-portfolio/ui/DailyRoutineSection.jsx",
+        "public/cat_paw_cursor_32x32.png",
         ".vscode/changelists.json",
-        "src/app/styles/globals.css",
-        "public/myLogo.png",
-        "public/resume_park.pdf",
-        "public/favicon.png",
-        "public/favicon.svg",
-        "src/app/App.jsx",
         "public/cursor-cat.png",
-        "src/entities/cat/model/catPortfolioData.js"
+        "src/app/styles/globals.css"
       ]
     }
   ],
