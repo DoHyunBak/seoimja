@@ -8,9 +8,15 @@ export const catPortfolioData = {
     servants: [
       {
         id: "main-servant",
-        role: "Main Servant",
+        role: "집사",
         label: "yewon.cc",
         href: "https://yewon.cc",
+      },
+      {
+        id: "second-servant",
+        role: "키다리아저씨",
+        label: "parkdohyun.com",
+        href: "https://parkdohyun.com",
       },
     ],
   },
