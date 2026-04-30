@@ -45,12 +45,12 @@ export const catPortfolioData = {
     ],
   },
   stats: [
-    { id: "affection", label: "애교도", score: 99, note: "먼저 오지는 않지만 옆자리는 지켜요" },
+    { id: "affection", label: "애교도", score: 70, note: "먼저 오지는 않지만 옆자리는 지켜요" },
     { id: "playful", label: "장난기", score: 100, note: "끈 장난감 한정 집중력이 급상승해요" },
-    { id: "appetite", label: "식탐", score: 91, note: "간식 서랍 소리에 즉시 반응해요" },
+    { id: "appetite", label: "식탐", score: 100, note: "간식 서랍 소리에 즉시 반응해요" },
     { id: "sleep", label: "잠자는 시간", score: 88, note: "하루 대부분 자는 중이에요" },
     { id: "zoomies", label: "우다다력", score: 100, note: "밤 8시 이후 짧고 강해요" },
-    { id: "supervision", label: "집사 감시력", score: 94, note: "화장실, 부엌 동선까지 파악해요" },
+    { id: "supervision", label: "집사 감시력", score: 80, note: "화장실, 부엌 동선까지 파악해요" },
   ],
   gallery: [
     {

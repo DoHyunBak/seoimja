@@ -16,6 +16,7 @@ html {
 
 body {
   background: #05070d;
+  cursor: url('/cursor-cat.png') 0 0, auto;
 }
 
 .theme-high-contrast {
